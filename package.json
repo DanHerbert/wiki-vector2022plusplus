@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.5",
+    "sass": "^1.59.3"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "vector2022pp.scss": [
+      "prettier --write --ignore-unknown"
+    ]
+  }
+}

@@ -7,7 +7,7 @@
   font-size: 16px;
   line-height: 1.8;
 }
-.vector-feature-limited-width-enabled .skin-vector-2022 .sidebar, .vector-feature-limited-width-enabled .skin-vector-2022 .infobox, .vector-feature-limited-width-enabled .skin-vector-2022 .thumb, .vector-feature-limited-width-enabled .skin-vector-2022 .reflist, .vector-feature-limited-width-enabled .skin-vector-2022 .navbox, .vector-feature-limited-width-enabled .skin-vector-2022 .ambox, .vector-feature-limited-width-enabled .skin-vector-2022 .hatnote, .vector-feature-limited-width-enabled .skin-vector-2022 .catlinks, .vector-feature-limited-width-enabled .skin-vector-2022 .wikitable, .vector-feature-limited-width-enabled .skin-vector-2022 .side-box, .vector-feature-limited-width-enabled .skin-vector-2022 .sisterproject .vector-feature-limited-width-enabled .skin-vector-2022 table, .vector-feature-limited-width-enabled .skin-vector-2022 .reflist ~ ul {
+.vector-feature-limited-width-enabled .skin-vector-2022 .sidebar, .vector-feature-limited-width-enabled .skin-vector-2022 .infobox, .vector-feature-limited-width-enabled .skin-vector-2022 .thumb, .vector-feature-limited-width-enabled .skin-vector-2022 .reflist, .vector-feature-limited-width-enabled .skin-vector-2022 .navbox, .vector-feature-limited-width-enabled .skin-vector-2022 .ambox, .vector-feature-limited-width-enabled .skin-vector-2022 .hatnote, .vector-feature-limited-width-enabled .skin-vector-2022 .catlinks, .vector-feature-limited-width-enabled .skin-vector-2022 .wikitable, .vector-feature-limited-width-enabled .skin-vector-2022 .side-box, .vector-feature-limited-width-enabled .skin-vector-2022 .sisterproject, .vector-feature-limited-width-enabled .skin-vector-2022 table, .vector-feature-limited-width-enabled .skin-vector-2022 .reflist ~ ul {
   font-size: 14px;
   line-height: 1.3;
 }
@@ -21,7 +21,8 @@
   }
 }
 .vector-feature-limited-width-enabled .skin-vector-2022 :is(.reflist-columns, .refbegin-columns, .mw-references-columns) {
-  /* MediaWiki adds an inlined 30em column width that needs to be overridden with importance. */
+  /* MediaWiki adds an inlined 30em column width that needs to be overridden
+   * with importance. */
   column-width: 23em !important;
 }
 .vector-feature-limited-width-enabled .skin-vector-2022 .references ::marker, .vector-feature-limited-width-enabled .skin-vector-2022 .reflist-columns ::marker {

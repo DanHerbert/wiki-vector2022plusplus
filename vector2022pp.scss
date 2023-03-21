@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 .vector-feature-limited-width-enabled .skin-vector-2022 {
-
   & .mw-content-container {
     max-width: 48em;
   }
@@ -22,7 +21,7 @@
   & .catlinks,
   & .wikitable,
   & .side-box,
-  & .sisterproject
+  & .sisterproject,
   & table,
   & .reflist ~ ul {
     font-size: 14px;
@@ -41,9 +40,10 @@
   }
 
   & :is(.reflist-columns, .refbegin-columns, .mw-references-columns) {
-    /* MediaWiki adds an inlined 30em column width that needs to be overridden with importance. */
+    /* MediaWiki adds an inlined 30em column width that needs to be overridden
+     * with importance. */
     column-width: 23em !important;
-}
+  }
 
   & .references ::marker,
   & .reflist-columns ::marker {

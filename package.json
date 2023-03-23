@@ -8,9 +8,4 @@
   "scripts": {
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "vector2022pp.scss": [
-      "prettier --write --ignore-unknown"
-    ]
-  }
 }
